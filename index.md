@@ -4,7 +4,7 @@
 ## POGGERS
 [Link](https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule?authuser=0)
 ![Image](https://pas-wordpress-media.s3.us-east-1.amazonaws.com/wp-content/uploads/2013/03/website1.jpg)
-> coolest on the block
+> my block
 * item1
 * item2
 * item3
