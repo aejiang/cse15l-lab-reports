@@ -33,4 +33,8 @@ In a terminal on your client, run scp <your file name> cs15lwi22zz@ieng6.ucsd.ed
   
   
 **Optimizing Remote Running**
-![Screenshot6](https://media.discordapp.net/attachments/763128098999894087/961692270829142076/labreport1.png?width=1179&height=663)
+![Screenshot6](https://cdn.discordapp.com/attachments/763128098999894087/962802179637395528/speedyss.png)
+- Use SSH keys to avoid entering long password.
+- Put command in quotes after command to log in to remote server to run both together. (E.g. ssh cs15lsp22zz@ieng6.ucsd.edu "ls")
+- Run multiple commands together by separating them with a semicolon. (E.g. javac WhereAmI.java; java WhereAmI)
+
