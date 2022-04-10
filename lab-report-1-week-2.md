@@ -23,7 +23,7 @@ To connect to the remote server, install OpenSSH if you're using Windows, and ma
 
 **Moving Files with scp**
 ![Screenshot4](https://media.discordapp.net/attachments/763128098999894087/962610342540771348/scpss.png)
-In a terminal on your client, run scp <your file name> cs15lwi22zz@ieng6.ucsd.edu:~/ where zz is replaced with your account. When you log into the remote server and run the ls command, the file from your local computer should appear. The file can be ran on the server using javac and java. 
+In a terminal on your client, run scp yourFileName cs15lwi22zz@ieng6.ucsd.edu:~/ where zz is replaced with your account and yourFileName is the name of your file. When you log into the remote server and run the ls command, the file from your local computer should appear. The file can be ran on the server using javac and java. 
 
 **Setting an SSH Key**
 ![Screenshot5](https://cdn.discordapp.com/attachments/763128098999894087/962613823913726032/sshkeysss.png)
