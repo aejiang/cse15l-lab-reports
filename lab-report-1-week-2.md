@@ -27,6 +27,8 @@ In a terminal on your client, run scp <your file name> cs15lwi22zz@ieng6.ucsd.ed
 
 **Setting an SSH Key**
 ![Screenshot5](https://cdn.discordapp.com/attachments/763128098999894087/962613823913726032/sshkeysss.png)
+- To generate the keys, run ssh-keygen -t ed25519 and enter the name of the file you'd like to save your key in 
+- If you're on Windows, follow these additional [directions](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation) to store your private key. 
   
   
 
