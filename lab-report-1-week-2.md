@@ -10,8 +10,16 @@ To install VScode, go [here](https://code.visualstudio.com/) and follow the dire
 To connect to the remote server, install OpenSSH if you're using Windows, and make sure to have your class account, which can be found [here](https://sdacs.ucsd.edu/~icc/index.php), and password ready. In VScode, open a new terminal and enter $ ssh cs15lwi22zz@ieng6.ucsd.edu where zz is your class account. Finally, enter your password when prompted.
 
 **Trying Some Commands**
-![Screenshot3](https://media.discordapp.net/attachments/763128098999894087/962610001359306802/cmndsss.png)
-Run some commands such as cd ~, cd, ls -lat, ls -a, cp, pwd, and cat. Test these commands for a terminal on your local computer and a terminal where you're connected to the server and note any differences. 
+![pwdScreenshot](https://media.discordapp.net/attachments/763128098999894087/962773496277127208/pwdss.png?width=1393&height=663)
+- pwd: prints out the path of your current directory
+![lsScreenshot](https://cdn.discordapp.com/attachments/763128098999894087/962774682124308560/lsss.png)
+- ls: lists out the files in your current directory
+![cdScreenshot](https://media.discordapp.net/attachments/763128098999894087/962775211273515089/cdss.png?width=1367&height=663)
+- cd: changes your current directory 
+![mkdirScreenshot](https://cdn.discordapp.com/attachments/763128098999894087/962775996992462858/mkdirss.png)
+- mkdir: creates a new directory of the specified name
+![cpScreenshot](https://media.discordapp.net/attachments/763128098999894087/962779409427865631/cpss.png?width=1343&height=662)
+- cp: makes a copy of a file or directory with a different name 
 
 **Moving Files with scp**
 ![Screenshot4](https://media.discordapp.net/attachments/763128098999894087/962610342540771348/scpss.png)
