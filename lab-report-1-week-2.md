@@ -23,11 +23,11 @@ To connect to the remote server, install OpenSSH if you're using Windows, and ma
 
 **Moving Files with scp**
 ![Screenshot4](https://media.discordapp.net/attachments/763128098999894087/962610342540771348/scpss.png)
-In a terminal on your client, run scp yourFileName cs15lwi22zz@ieng6.ucsd.edu:~/ where zz is replaced with your account and yourFileName is the name of your file. When you log into the remote server and run the ls command, the file from your local computer should appear. The file can be ran on the server using javac and java. 
+In a terminal on your client, run `scp yourFileName cs15lwi22zz@ieng6.ucsd.edu:~/` where zz is replaced with your account and yourFileName is the name of your file. When you log into the remote server and run the ls command, the file from your local computer should appear. The file can be ran on the server using javac and java. 
 
 **Setting an SSH Key**
 ![Screenshot5](https://cdn.discordapp.com/attachments/763128098999894087/962924951961227304/step5ss.png)
-- To generate the keys, run ssh-keygen -t ed25519 and enter the name of the file you'd like to save your key in and then enter in a passphrase. 
+- To generate the keys, run `ssh-keygen -t ed25519` and enter the name of the file you'd like to save your key in and then enter in a passphrase. 
 - If you're on Windows, follow these additional [directions](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation) to store your private key. 
 - Copy the public key that ends in .pub to .ssh in your remote server by running mkdir .ssh on the server and scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/ .ssh/authorized on your local computer with your account name and the path your key was saved in. 
   
