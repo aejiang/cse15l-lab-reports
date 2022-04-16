@@ -7,7 +7,7 @@ To install VScode, go [here](https://code.visualstudio.com/) and follow the dire
 
 **Remotely Connecting**
 ![Screenshot2](https://cdn.discordapp.com/attachments/763128098999894087/962609708592668732/sshss.png)
-To connect to the remote server, install OpenSSH if you're using Windows, and make sure to have your class account, which can be found [here](https://sdacs.ucsd.edu/~icc/index.php), and password ready. In VScode, open a new terminal and enter $ ssh cs15lwi22zz@ieng6.ucsd.edu where zz is your class account. Finally, enter your password when prompted.
+To connect to the remote server, install OpenSSH if you're using Windows, and make sure to have your class account, which can be found [here](https://sdacs.ucsd.edu/~icc/index.php), and password ready. In VScode, open a new terminal and enter `$ ssh cs15lwi22zz@ieng6.ucsd.edu` where zz is your class account. Finally, enter your password when prompted.
 
 **Trying Some Commands**
 ![pwdScreenshot](https://media.discordapp.net/attachments/763128098999894087/962773496277127208/pwdss.png?width=1393&height=663)
@@ -29,12 +29,12 @@ In a terminal on your client, run `scp yourFileName cs15lwi22zz@ieng6.ucsd.edu:~
 ![Screenshot5](https://cdn.discordapp.com/attachments/763128098999894087/962924951961227304/step5ss.png)
 - To generate the keys, run `ssh-keygen -t ed25519` and enter the name of the file you'd like to save your key in and then enter in a passphrase. 
 - If you're on Windows, follow these additional [directions](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation) to store your private key. 
-- Copy the public key that ends in .pub to .ssh in your remote server by running mkdir .ssh on the server and scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/ .ssh/authorized on your local computer with your account name and the path your key was saved in. 
+- Copy the public key that ends in .pub to .ssh in your remote server by running `mkdir .ssh` on the server and `scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/ .ssh/authorized` on your local computer with your account name and the path your key was saved in. 
   
   
 **Optimizing Remote Running**
 ![Screenshot6](https://cdn.discordapp.com/attachments/763128098999894087/962802179637395528/speedyss.png)
 - Use SSH keys to avoid entering long password.
-- Put command in quotes after command to log in to remote server to run both together. (E.g. ssh cs15lsp22zz@ieng6.ucsd.edu "ls")
-- Run multiple commands together by separating them with a semicolon. (E.g. javac WhereAmI.java; java WhereAmI)
+- Put command in quotes after command to log in to remote server to run both together. (E.g. `ssh cs15lsp22zz@ieng6.ucsd.edu "ls"`)
+- Run multiple commands together by separating them with a semicolon. (E.g. `javac WhereAmI.java; java WhereAmI`)
 
