@@ -1,3 +1,3 @@
-#Lab Report 2
+# Lab Report 2
 
-##Code Change 1##
+**Code Change 1**
