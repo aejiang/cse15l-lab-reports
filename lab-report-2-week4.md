@@ -19,3 +19,8 @@
 
 
 **Code Change 3**
+![change3](https://user-images.githubusercontent.com/103210217/165025715-b34e79be-111a-4013-8ca8-9b01836866ec.png)
+- [This](https://github.com/aejiang/markdown-parser/blob/main/test-file-onlyBrackets.md) is test file 3 for the error caused by having only brackets.
+![symptom3](https://user-images.githubusercontent.com/103210217/165025172-a2f05617-3e67-4951-86f4-536a24f7d8e2.png)
+
+- The third bug is that the program does not work properly on files with only brackets and no parentheses. A symptom is seen in the terminal after running the program on a file with only brackets in one line and a url in another. After running, a StringIndexOutOfBoundsException shows up because the index of the open and closed paretheses cannot be found. 
