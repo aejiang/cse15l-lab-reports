@@ -7,8 +7,10 @@
 
 
 **Code Change 2**
-![symptom2](https://user-images.githubusercontent.com/103210217/165019545-e0234e5c-adde-4e24-a67b-853a5cedfc40.png)
-![symptom](https://user-images.githubusercontent.com/103210217/165022847-e0d1f905-3c34-4a9d-8132-dfb93d890d48.png)
+![change2.1](https://user-images.githubusercontent.com/103210217/165023263-7832e19b-52e9-4c86-905b-be46f70e6643.png)
+![change2.2](https://user-images.githubusercontent.com/103210217/165023304-2d895e06-fe52-4f66-9c17-c9dfc12b952a.png)
+
+![symptom2](https://user-images.githubusercontent.com/103210217/165022847-e0d1f905-3c34-4a9d-8132-dfb93d890d48.png)
 
 
 
