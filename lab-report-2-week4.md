@@ -5,6 +5,7 @@
 - [This](https://github.com/aejiang/markdown-parser/blob/main/test-file-link-mid.md) is test file 1 for the error caused by putting a link in the middle of the file.
 ![symptom1](https://user-images.githubusercontent.com/103210217/165024258-e4c70434-3959-443b-83e8-8bf5e7935b1f.png)
 
+- The first bug is that the program cannot does not know to move to the next line when there is no link in that line. A symptom is seen in the terminal after running it with a file with 2 links in the middle of empty lines. It runs into an OutOfMemoryError because the while loop runs forever, but it should print out the two links in the file. 
 
 
 **Code Change 2**
