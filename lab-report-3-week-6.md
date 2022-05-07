@@ -1,6 +1,7 @@
 # Lab Report 3
 
 **Streamlining ssh Configuration**
+
 ![configFile](https://user-images.githubusercontent.com/103210217/167228163-81be92f5-8463-444c-8a81-37383e4a187d.png)
 - This is the config file in .ssh and how I edited it in VSCode.
 
@@ -11,6 +12,7 @@
 - This is the `scp` command I used to copy a file into my ieng account using just my alias.
 
 **Setup Github Access from ieng6**
+
 ![pubKey](https://user-images.githubusercontent.com/103210217/167229259-6c95754c-33c8-4bbf-bd66-cbfe26989869.png)
 - This is a screenshot showing where my public key is stored on GitHub.
 
@@ -29,6 +31,7 @@
 - [This](https://github.com/aejiang/markdown-parser/blob/main/testFileeee.txt) is the link to the resulting commit.
 
 **Copy whole directories with `scp -r`**
+
 ![copydir1](https://user-images.githubusercontent.com/103210217/167238395-c48bb22c-9746-4234-b40a-2cf3c3e88d35.png)
 ![copydir2](https://user-images.githubusercontent.com/103210217/167238407-a0563b39-c429-4ff0-bfc3-731c87f6a903.png)
 ![copydir3](https://user-images.githubusercontent.com/103210217/167238415-858c4b8f-bd09-402b-b905-a0d420566b3c.png)
