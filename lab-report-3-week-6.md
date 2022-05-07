@@ -3,10 +3,10 @@
 **Streamlining ssh Configuration**
 ![configFile](https://user-images.githubusercontent.com/103210217/167228163-81be92f5-8463-444c-8a81-37383e4a187d.png)
 - This is the config file in .ssh and how I edited it in VSCode.
-- 
+
 ![sshCommand](https://user-images.githubusercontent.com/103210217/167228267-72435a0f-8119-4cbf-9413-6bd5a18698d8.png)
 - This is the `ssh` command I used to log in with just my alias.
-- 
+
 ![scpWAlias](https://user-images.githubusercontent.com/103210217/167229068-2da06dd7-8fca-47ae-8394-1778bd0f737b.png)
 - This is the `scp` command I used to copy a file into my ieng account using just my alias.
 
@@ -26,7 +26,7 @@
 ![image](https://user-images.githubusercontent.com/103210217/167230477-366098c1-ba20-4736-b3ed-98290e9b1726.png)
 - These are images of the `git add`, `git pull', and `git push` commands that I ran when logged into my ieng6 account.
 
-[This](https://github.com/aejiang/markdown-parser/blob/main/testFileeee.txt) is the link to the resulting commit.
+- [This](https://github.com/aejiang/markdown-parser/blob/main/testFileeee.txt) is the link to the resulting commit.
 
 **Copy whole directories with `scp -r`**
 ![copydir1](https://user-images.githubusercontent.com/103210217/167238395-c48bb22c-9746-4234-b40a-2cf3c3e88d35.png)
