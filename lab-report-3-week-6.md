@@ -45,10 +45,10 @@ To set up Github access from ieng6, you first generate a key by entering `ssh-ke
 ![iengtest](https://user-images.githubusercontent.com/103210217/167238643-7fbfad0a-5631-47f1-937b-93da3583302e.png)
 - This is me logging into my ieng6 account and compiling and running the tests.
 
-![allCombined1](https://user-images.githubusercontent.com/103210217/168527498-39e3d8ad-2c00-4f63-a765-b25caa4ca0ce.png)
 
-![combined1](https://user-images.githubusercontent.com/103210217/167238823-5785cb3b-29cf-4fe6-a084-d0cf64cfcfe8.png)
-![combined](https://user-images.githubusercontent.com/103210217/167238833-c39bde1f-3f4a-4480-9705-23d537791bd4.png)
+![all1](https://user-images.githubusercontent.com/103210217/168527682-b3e398cc-81fe-4c50-8ed6-7b1a7a17fbe5.png)
+![tests](https://user-images.githubusercontent.com/103210217/168527942-5dfd60bf-69f5-42ec-9182-06d1178b626e.png)
+
 - This is my `scp`, `;`,`ssh`, and JUnit test commands being run on one line. 
 
 You can run `scp -r . cs15lsp22aoi@ieng6.ucsd.edu:~\markdown-parser` to copy your current directory into your remote server by creating a new directory in the remote server. Then you can check if the directory was successfully copied over by running `ssh ieng6` to log in. After changing into the correct directory, you can run `javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java` and `java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest` to run the JUnit tests. All of these commands can be combined into one line with semicolons to separate each command.
