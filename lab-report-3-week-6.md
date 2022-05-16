@@ -11,7 +11,9 @@
 ![scpWAlias](https://user-images.githubusercontent.com/103210217/167229068-2da06dd7-8fca-47ae-8394-1778bd0f737b.png)
 - This is the `scp` command I used to copy a file into my ieng account using just my alias.
 
+```
 To streamline ssh configuration, create a configuration file within the ssh directory that tells SSH your host name alias, server username, and path to your ssh key file. Then you can `ssh` and `scp` with just your alias so you no longer have to type out your username and password. 
+```
 
 **Setup Github Access from ieng6**
 
@@ -32,7 +34,9 @@ To streamline ssh configuration, create a configuration file within the ssh dire
 
 - [This](https://github.com/aejiang/markdown-parser/blob/main/testFileeee.txt) is the link to the resulting commit.
 
+```
 To set up Github access from ieng6, you first generate a key by entering `ssh-keygen` in the terminal. Then you copy the public key generated from this to your Github ssh keys. Once you have set up Github access, you can use git commands in your remote server to directly update your repository. 
+```
 
 **Copy whole directories with `scp -r`**
 
@@ -51,7 +55,9 @@ To set up Github access from ieng6, you first generate a key by entering `ssh-ke
 
 - This is my `scp`, `;`,`ssh`, and JUnit test commands being run on one line. 
 
+```
 You can run `scp -r . cs15lsp22aoi@ieng6.ucsd.edu:~\markdown-parser` to copy your current directory into your remote server by creating a new directory in the remote server. Then you can check if the directory was successfully copied over by running `ssh ieng6` to log in. After changing into the correct directory, you can run `javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java` and `java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest` to run the JUnit tests. All of these commands can be combined into one line with semicolons to separate each command.
+```
 
 
 
