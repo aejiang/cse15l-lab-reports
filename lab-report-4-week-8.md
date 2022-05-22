@@ -31,7 +31,14 @@
 
 
 **Snippet 3**
-- what should be produced:
+- what should be produced: ``[
+    https://www.twitter.com, 
+https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule, https://cse.ucsd.edu/
+
+
+
+]``
+
 
 - This is a screenshot of my test for snippet 3.
 
