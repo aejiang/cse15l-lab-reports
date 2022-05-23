@@ -52,10 +52,11 @@ Yes, I do think a small code change will make my program work for snippet 1. For
 
 ``` 
 Yes, I do think there is a small code change that will make my program work for snippet 2. I would use a stack to group pairs of parentheses and brackets, to avoid closing off a link too early. 
+```
 
 - Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.
 
 ```
 No, I do not this there is a small code change that will make my program work for snippet 3. I think a more involved change is needed because my current code only checks for parentheses and brackets for each line. The link text and url's go beyond a single line, so the program essentially starts fresh each line and isn't able to correctly find the link text and url's. I would have to change the structure of my code to not only check line by line.
-
+```
 
