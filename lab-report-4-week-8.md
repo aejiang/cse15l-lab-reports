@@ -57,5 +57,5 @@ Yes, I do think there is a small code change that will make my program work for 
 
 ```
 No, I do not this there is a small code change that will make my program work for snippet 3. I think a more involved change is needed because my current code only checks for parentheses and brackets for each line. The link text and url's go beyond a single line, so the program essentially starts fresh each line and isn't able to correctly find the link text and url's. I would have to change the structure of my code to not only check line by line.
-```
+
 
