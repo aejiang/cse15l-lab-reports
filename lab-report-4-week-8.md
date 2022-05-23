@@ -15,7 +15,7 @@
 ![image](https://user-images.githubusercontent.com/103210217/169721116-0801b338-3f76-444b-95e2-5524414a3c76.png)
 
 **Snippet 2**
-- what should be produced: ``["a.com", "a.com(())", "example.com"]``
+- what should be produced: ``[a.com, a.com(()), example.com]``
 
 - This is a screenshot of my test for snippet 2.
 ![image](https://user-images.githubusercontent.com/103210217/169721476-05efa2d5-3aeb-4e1b-bab5-5252cce7e100.png)
@@ -31,18 +31,14 @@
 
 
 **Snippet 3**
-- what should be produced: ``[
-    https://www.twitter.com, 
-https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule, https://cse.ucsd.edu/
-
-
-
-]``
-
+- what should be produced: ``[https://www.twitter.com, https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule, https://cse.ucsd.edu/]``
 
 - This is a screenshot of my test for snippet 3.
-
+![image](https://user-images.githubusercontent.com/103210217/169722667-5c0a1e27-9719-44ba-9889-287812ef2cc5.png)
 
 - The test did not pass for my implementation. Here is a screenshot of the test failure.
+![image](https://user-images.githubusercontent.com/103210217/169722642-319f07d2-136c-4d35-83be-9d78ee8f1a8d.png)
 
 - The test also did not pass for the implementation I reviewed in week 7. Here is a screenshot of the test failure. 
+![image](https://user-images.githubusercontent.com/103210217/169722713-aece9473-f841-46d8-b8d3-027eb801abf6.png)
+
