@@ -11,6 +11,7 @@ I found the tests by running the time bash command for both markdown parsers. Th
 - Describe which implementation is correct or neither:
 ```
 My implementation on the left is correct because it correctly prints out the title of the link whereas the other implementation prints out an empty array.
+```
 - Screenshots of both outputs and the expected outputs:
 ![test1](https://cdn.discordapp.com/attachments/983267884333670450/983269097062146118/unknown.png)
 - This is a screenshot of the outputs for test 1.
