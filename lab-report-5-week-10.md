@@ -13,10 +13,10 @@ I found the tests by running the time bash command for both markdown parsers. Th
 - Describe which implementation is correct or neither 
 - screenshots of both outputs and the expected outputs:
 ![test1](https://cdn.discordapp.com/attachments/983267884333670450/983269097062146118/unknown.png)
-This is a screenshot of the outputs for test 1.
+- This is a screenshot of the outputs for test 1.
 
 ![image](https://user-images.githubusercontent.com/103210217/172124386-bc570337-d0ff-4f9a-8288-40fadf107120.png)
-This is a screenshot that shows that `[/f&ouml;&ouml; "f&ouml;&ouml;"]` should be the correct output according to commonmark.
+- This is a screenshot that shows that `[/f&ouml;&ouml; "f&ouml;&ouml;"]` should be the correct output according to commonmark.
 
 
 **Test 2**
