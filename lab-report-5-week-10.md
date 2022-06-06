@@ -2,7 +2,7 @@
 
 **How I found the tests with different results**
 I found the tests by running the time bash command for both markdown parsers. Then I manually compared the outputs from each until I found differences.
-**Links to the test files with different results
+**Links to the test files with different results**
 - [test1](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/32.md)
 - [test2](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/371.md)
 
